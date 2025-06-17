@@ -1,0 +1,17 @@
+.skills-section {
+  background-color: #343a40; /* dark grey */
+  padding: 40px 20px;
+  border-radius: 12px;
+}
+
+.skill-badge {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  transition: transform 0.3s ease;
+}
+
+.skill-badge:hover {
+  transform: scale(1.1);
+  background-color: #0d6efd;
+  cursor: pointer;
+}

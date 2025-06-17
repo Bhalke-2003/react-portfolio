@@ -3,9 +3,13 @@ import React from "react";
 
 function Hero() {
   return(
-    <div className="bg-light text-center p-5">
-        <h1>Hello, I'm Akshata 👋</h1>
-        <p className="lead">Frontend Developer | Startup Enthusiast | React.js Learner</p>
+    <div className=" text-center p-5"
+    style={{
+      backgroundColor: 	'#999999',
+    }}>
+      <h1> Hi, I'm Akshata 👋  </h1> 
+        <p>Frontend Developer | React.js Enthusiast | Passionate about Building Clean & Modern Web Experiences.
+</p>
     </div>
   )
 
